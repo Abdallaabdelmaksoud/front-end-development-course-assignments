@@ -32,9 +32,9 @@ document.getElementById('part6Result').innerHTML = "Below or equal to 50";}
 
 
 
-var part7Number =75;
+var part7Number =80;
 var part7Result
-if (part7Number <25){document.getElementById('part7Result').innerHTML ="Below 25";
+if (part7Number < 25){document.getElementById('part7Result').innerHTML ="Below 25";
 }
 else if (part7Number >= 25 < 50) {
   document.getElementById('part7Result').innerHTML ="Between 25 and 50";
