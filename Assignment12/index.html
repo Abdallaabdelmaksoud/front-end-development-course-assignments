@@ -7,15 +7,33 @@
     </head>
 
     <body>
-       <section id="message">
+      <div class="container">
+        <form id="myform">
+      <lable>First Name</lable>
+      <input type ="text" id="firstname" class="numb" placeholder="FirstName">
+      <p id="fn" ></p>
 
-        </section>
-        <section class="inputs">
-       </section>
-         <section class="control-panel">
-            <input type="button" value="Update Values" id="btnUpdate" />
-        </section>
-        
+<lable id="l">Last Name</lable>
+      <input type ="text" id="lastname" class="numb" placeholder="Last Name">
+      <p id="ln"></p>
+
+<lable>E-mail Address</lable>
+      <input type ="email" id="email" class="numb" placeholder="E-mail address">
+      <p id="em"></p>
+
+<lable>Password</lable>
+      <input type ="password" id ="password" class="numb" placeholder="Password">
+      <p id="pa"></p>
+
+<lable>Confirm Password</lable>
+      <input type ="password" id="cpassword"  class="numb" placeholder="Confirm Password">
+      <p id="pas"></p>
+
+
+<button type="button" onclick="myFunction()">Submit</button>
+<button type="button" onclick="reset()" value="Reset My Form">Reset</button>
+</form>
+</div>
         <script src="scripts/main.js"></script>
     </body>
 

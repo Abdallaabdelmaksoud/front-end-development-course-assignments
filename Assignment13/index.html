@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Assignment 12</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <body>
+          <div class="container">
+            <form id="myform">
+    <lable>First Name</lable>
+          <input type ="text" id="firstname" class="numb" placeholder="FirstName">
+          <p id="fn" ></p>
+
+    <lable id="l">Last Name</lable>
+          <input type ="text" id="lastname" class="numb" placeholder="Last Name">
+          <p id="ln"></p>
+
+    <lable>E-mail Address</lable>
+          <input type ="email" id="email" class="numb" placeholder="E-mail address">
+          <p id="em"></p>
+
+    <lable>Password</lable>
+          <input type ="password" id ="password" class="numb" placeholder="Password">
+          <p id="pa"></p>
+
+    <lable>Confirmation Password</lable>
+          <input type ="password" id="cpassword"  class="numb" placeholder="Confirm Password">
+          <p id="pass"></p>
+<lable>Time Zone</lable>
+    <select id="cl">
+      <option value="1"> </option>
+        <option value="2">Eastern </option>
+          <option value="3">Central </option>
+            <option value="4">Mountain </option>
+              <option value="5">Pacific </option>
+    </select>
+<p id="ti"></p>
+              <lable>Tell US About You ..</lable>
+              <textarea name="" id ="te" placeholder="Start Typing Here"></textarea>
+              <p id="tex"></p>
+              <input type="checkbox" id="ch" value="yes"> Accept Terms and Conditions.
+              <button type="button" onclick="myFunction()">Submit</button>
+              <button type="button" onclick="reset()" value="Reset My Form">Reset</button>
+    </form>
+    </div>
+        <script src="scripts/main.js"></script>
+  </body>
+
+</html>

@@ -55,6 +55,7 @@ function myFunction() {
         password.style.border = "1px solid green";
     }
     document.getElementById("pa").innerHTML = text;
+
     var x, text;
 
 
@@ -64,10 +65,35 @@ function myFunction() {
         text = "*Confirmation Password Is Required*";
         cpassword.style.border = "1px solid red";
     } else {
-        text = "";
+           text ="";
+
         cpassword.style.border = "1px solid green";
     }
-    document.getElementById("pas").innerHTML = text;
+    document.getElementById("pass").innerHTML = text;
+       var x, text;
+
+x = document.getElementById("cl").value;
+
+if (x ==  "1") {
+    text = "*Pleas Enter Your Time Zone*";
+
+} else {
+    text = "";
+
+}
+document.getElementById("ti").innerHTML = text;
+var x, text;
+
+x = document.getElementById("te").value;
+
+if (x ==  "") {
+text = "*Wait We Need To Know ABout You*";
+
+} else {
+text = "";
+
+}
+document.getElementById("tex").innerHTML = text;
 }
 
 function reset() {
