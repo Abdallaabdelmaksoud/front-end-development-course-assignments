@@ -23,7 +23,17 @@ $("#btnThree").click(function(){
     $("#btnCopyHtml").click(function(){
 
 
-        
-    })
+var copiedHtml = $(".copy-html").html();
+
+$(".paste-html").html(copiedHtml);
+    });
+
+
+    $("#btnCopyValues").click(function(){
+  var copiedValue = $("#copy-text").val();
+
+ $('#paste-text').val(copiedValue);
+
+    });
 
 });
