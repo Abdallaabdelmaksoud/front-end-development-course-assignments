@@ -36,7 +36,7 @@ function validateRequiredInput(input) {
     var val = input.val();
 
     //Find the required input span.
-    var msgSpan = input.find('.error requiredMsg');
+    var msgSpan = input.find('.requiredMsg');
     if (val === '') {
         msgSpan.fadeIn();
         input.addClass('invalid');
@@ -60,10 +60,10 @@ function validateEmail(email) {
     if (emailValue !== '') {
         if (emailValue.indexOf('@') === -1 && emailValue.indexOf('@') === -1) {
             emailErrorMsg.fadeOut();
-            email.removeClass('invalid');
+            email.removeClass('invald');
         } else {
             emailErrorMsg.fadeIn();
-            email.addClass('invalid');
+            email.addClass('invald');
         }
     }
 
