@@ -1,3 +1,111 @@
 * {
     box-sizing: border-box;
 }
+
+body{
+   
+    background-color: grey
+}
+.bode{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+.header
+{background-color:red;}
+.header h4, h1
+{
+padding: 10px 10px}
+.nav{
+    background-color: darkred;
+   padding: 36px 0px;
+}
+.nav li  {
+    display: inline-block;
+    padding: 6px 6px;
+    list-style: none;
+    float: left;
+}
+.nav a {text-decoration: none;
+color: white;
+font-weight: bold}
+.nav button{float: right;
+margin: 10px 8px
+}
+
+.nav input{
+    width:200px;
+    margin: 10px -7px; 
+
+    float: right;
+    background-color: red
+}
+
+
+img{float:left;
+width: 20%;
+margin: 58px 20px;
+
+}
+.sec{
+    float:right;
+width:75%;
+padding: 20px 10px;
+font-size: 20px
+}
+
+
+.fo{
+   width: 80%;
+    clear: both;
+    margin: 0 auto;
+    
+    
+}
+.fo input, textarea, select{
+   width: 70%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+lable{
+    font-weight: bold;
+    padding: 6px 10px;
+    width: 25%;
+    float: left
+
+}
+.fot{
+    text-align: center
+}
+
+.fot button{
+    padding: 10px 30px;
+    margin: 10px
+}
+.ch
+{
+margin: 16px 150px
+
+}
+
+.footer{
+    background-color: dimgray ;
+   height: 40px;
+   text-align: center
+}
+.footer li  {
+    display: inline-block;
+    padding: 6px 6px;
+    list-style: none;
+    
+}
+.footer a {text-decoration: none;
+color: black;
+
+}
+
+ a:hover {
+    text-decoration: underline
+}

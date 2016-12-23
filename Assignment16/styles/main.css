@@ -43,3 +43,11 @@ section > section > div{
 .part3{
     display:none;
 }
+[target] {
+    color:blue
+}
+[type="text"] {
+    background-color: pink
+}
+input[type= "checkbox"] {
+    background-color: yellow }

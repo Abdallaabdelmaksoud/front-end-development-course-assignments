@@ -5,7 +5,7 @@
 
 
 /*******Part 2***********/
-var foo = "This is a String";
+
 
 
 
@@ -14,9 +14,5 @@ var foo = "This is a String";
 
 
 /*******Part 4***********/
-var fName = "John"
-var lName = "Doe"
 
-
-
-
+document.getElementById('test').innerHTML = "100 200 300";
