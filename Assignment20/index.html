@@ -7,16 +7,80 @@
     </head>
 
     <body>
-        <div class="fl">
-            <h2>Append</h2>
-            <ul id="append">
-            </ul>
+    <div class="header">
+        <div class="logo">   
+            <img src="http://placehold.it/350x100" alt="" height="100" width="180"> 
         </div>
-        <div class="fl">
-            <h2>Prepend</h2>
-            <ul id="prepend">
-            </ul>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="#"><img src="images/ho.jpg"height="100" width="100"></a></li>
+            <li><a href="#"><img src="images/qa.jpg"height="100" width="100"></a></li>
+            <li><a href="https://www.facebook.com/HalluxInc/"><img src="images/fac.jpg"height="100" width="100"></a></li>
+            <li><a href="https://twitter.com/HalluxInc"><img src="images/tw.jpg"height="100" width="100"></a></li>
+        </ul>
+    </div>
+
+        <div id="qu">
+       <h1> Question Title</h1>
+       <p>The only punctuation mark needed for a title would be a question
+            mark at the end—if the title is a question.
+            It is always considered perfectly acceptable to
+            use questions as titles for any piece of writing—a
+            poem, a novel, an essay, a short story, or any other
+            literary piece.</p>
         </div>
+       
+            <div id="user">
+                <h3>Asked By:</h3>
+                <img src="images/ava.jpg"height="50" width="50"> John Doe
+            </div>
+            
+    <div class="clear"></div>
+    <div class="mid">
+        <div class="ans">
+            <h1>Answers</h1>
+            <div class="ans1"><p>The only punctuation mark needed for a title would be a question mark at the end—if the title is a question.</p>
+               <p id="an"> <img src="images/ava.jpg"height="50" width="50">John Doe Responded</p>
+            </div>
+            <div class="ans2"><p>The only punctuation mark needed for a title would be a question mark at the end—if the title is a question.</p>
+            <p id="an"> <img src="images/ava.jpg"height="50" width="50">Jemmy Doe Responded</p>
+            </div>
+            <div class="ans3"><p>The only punctuation mark needed for a title would be a question mark at the end—if the title is a question.</p>
+                 <p id="an"> <img src="images/ava.jpg"height="50" width="50">Jane Doe Responded</p>
+            </div>
+        </div>
+        <div class="activity">
+                <h1>Activity Log</h1>
+                <ul>
+                <li>John Doe Responded</li>
+                <li>Jemmy Doe Responded</li>
+                <li>Jane Doe Responded</li>
+                <li>Joush Doe Responded</li>
+                </ul>
+            </div>
+    </div>
+    <div class="footer">
+         
+        <h1>Submit Your Answer</h1>
+        <label>Your Name</label>
+        <div class="error1">Name Is Required</div>
+        <input type="text" name="name" id="name" placeholder="your name" />
+        <label>Your Answer</label>
+         <div class="error2">Answer Fieled Is Required</div>
+        <textarea id="text" name="text" placeholder="write your answer here ..."></textarea>
+     <button id="submit" type="submit">Submit</button>
+     <button id="reset" type="reset">Reset</button>
+       
+    </div>
+    <div class="another">
+    <div class="my">
+        <h2> Thank you for your answer </h2>
+        <button id="ad" type="submit">Add Another Answer</button>
+    </div>
+    </div>
+       
+
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script src="scripts/main.js"></script>
     </body>
