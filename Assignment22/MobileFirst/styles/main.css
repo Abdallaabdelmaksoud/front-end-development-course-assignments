@@ -110,3 +110,56 @@ footer>nav>a {
     padding: 0 10px;
     display:block;
 }
+@media screen and (min-width: 770px){
+    .main-header nav {
+    background: #a00;
+    border-radius: 50%
+}
+    
+    .main-header nav a {
+    display: inline-block;
+}
+.main-header {
+    text-align: center;
+    margin: 10px 0
+}
+.hero {
+    width: 620px;
+    height: 309px;
+    margin: auto
+}
+.section-header{
+    clear: both
+}
+.article-list article {
+    margin-top: 10px;
+    padding: 10px;
+    float: left
+}
+.article-list  {
+    float: left;
+    width: 60%
+}
+.article-list article img {
+    float: left;
+    width: 40%;
+    /*padding: 10px*/
+}
+
+section>aside  {
+    /*margin-top: 10px;*/
+    width:25%;
+    float: right
+}
+footer>nav>a {
+    padding: 0 10px;
+    display:inline-block;
+}
+footer {
+    text-align: center
+}
+.main-container {
+    margin: 0 auto;
+    width: 80%
+}
+}

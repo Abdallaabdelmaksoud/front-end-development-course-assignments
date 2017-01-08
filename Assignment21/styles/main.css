@@ -15,4 +15,23 @@
     float:right;
     width:50%;
 }
+@media screen and (max-width:500px){
+    .fl, .fr{
+        color: blue;
+    }
+}
+@media screen and (min-width:400px) and (max-width:800px){
+   .fl, .fr{
+       background-color: grey;
+   }}
+        @media screen and (min-width:960px){
+    ol{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:480px){
+    .fl, .fr{
+        width: 100%
+    }
+}
 
