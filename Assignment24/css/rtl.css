@@ -1,0 +1,32 @@
+.head , .nav{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+     text-align: center;
+}
+.article{
+    padding: 180px;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+
+}
+.art{
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+.img{
+     padding: 20px;
+    margin: 10px ;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.side{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+}

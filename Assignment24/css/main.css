@@ -1,0 +1,37 @@
+.head , .nav{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+     text-align: center;
+}
+.hero{
+    padding: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+
+}
+.art{
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+.img{
+     padding: 20px;
+    margin: 10px ;
+    border: 2px solid black;
+    text-align: center;
+}
+.feature{
+    padding: 80px;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+.side{
+     padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
